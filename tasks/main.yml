@@ -15,4 +15,4 @@
     dest: /etc/myctl.conf
     owner: root
     group: myctl
-    mode: 0640
+    mode: 0750
