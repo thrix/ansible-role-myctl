@@ -1,0 +1,18 @@
+---
+- name: Create myctl group
+  group:
+    name: myctl
+    state: present
+
+- name: Install myctl from {{ myctl_url }}
+  get_url:
+    url: "{{ myctl_url }}"
+    dest: /usr/bin/myctl
+
+- name: Add configuration file
+  template:
+    src: templates/myctl.conf.j2
+    dest: /etc/myctl.conf
+    owner: root
+    group: myctl
+    mode: 0640

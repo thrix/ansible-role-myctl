@@ -1,0 +1,8 @@
+---
+driver:
+  name: docker
+docker:
+  containers:
+    - name: myctl
+      image: centos
+      image_version: latest

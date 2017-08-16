@@ -1,0 +1,6 @@
+---
+myctl_url: https://raw.githubusercontent.com/thrix/myctl/master/myctl
+myctl_mysql_user: root
+myctl_mysql_password: changeme
+myctl_mysql_host: localhost
+myctl_mysql_port: 3306
