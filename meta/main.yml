@@ -1,0 +1,13 @@
+galaxy_info:
+  author: Miroslav Vadkerti
+  description: This role setups myctl
+  company: Miroslav Vadkerti <thrix AT vadkerti.net>
+  license: GPLv3
+  min_ansible_version: 2.2
+  platforms:
+  - name: EL
+    versions:
+    - 7
+  - name: CENTOS
+    versions:
+    - 7
